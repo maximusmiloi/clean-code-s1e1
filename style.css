@@ -13,8 +13,7 @@
 .description img {
   width: 100%;
 }
-.description 
-.more-info {
+.description .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -123,16 +122,12 @@
 .task-list__item > .task-list__input[type="text"] {
   width: 226px
 }
-.task-list__button
-.delete 
-img {
+.task-list__button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.task-list__button
-.delete 
-img:hover {
+.task-list__button.delete img:hover {
   transform: rotateZ(0);
 }
 
